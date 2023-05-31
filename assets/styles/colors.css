@@ -1,0 +1,20 @@
+:root {
+    --green: #4B9200;
+
+    --orange: #fe9013;
+    --orange-button-hover: #E47209;
+    --orange-gradient: linear-gradient(to right bottom, #F9804B, #FE9013);
+
+    --yellow: #FFEE2E;
+    --red: #D31414;
+    --frosted_glass_white: #FDFDFF;
+
+    --light_gray: #F1F3F2;
+    --gray_smoky: #ABABAB;
+    --gray: #767474;
+
+    --black_blue: #333B41;
+
+    --white: #ffffff;
+    --black: #000000;
+}

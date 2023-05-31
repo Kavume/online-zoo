@@ -1,0 +1,588 @@
+@media screen and (max-width: 999px) and (min-width: 640px){
+
+    .page-content {
+        max-width: 640px;
+    }
+
+    .section {
+        max-width: 640px;
+    }
+
+    .header {
+        max-width: 640px;
+        height: 34px;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header .logo {
+        width: 47px;
+        height: 29px;
+        border: 1px solid transparent;
+        border-radius: 2px;
+    }
+
+    .header .logo__img {
+        position: absolute;
+        height: 13px;
+        object-fit: cover;
+        top: 12px;
+        left: 3px;
+    }
+
+    .header .logo__text {
+        padding:  5px 4px 4px;
+        font-size: 12px;
+        line-height: 122%;
+    }
+
+    .header .logo:hover {
+        border: 1px solid transparent;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .burger-menu__wrap {
+        display: block;
+        margin-top: -1px;
+    }
+
+    .burger-menu:hover, .burger-menu__close:hover {
+        cursor: pointer;
+    }
+
+    .burger-menu__close {
+        position: absolute;
+        top: 11px;
+        right: 22px;
+    }
+
+    .burger-menu__dropdown-content {
+        display: none;
+        width: 640px;
+        height: 329px;
+        background-color: var(--white);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0 0 10px;
+    }
+
+    .burger-menu__dropdown-content.navbar {
+        display: block;
+    }
+
+    .burger-menu__logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66px;
+        height: 42px;
+        border: 1px solid var(--orange);
+        border-radius: 2px;
+    }
+
+    .burger-menu__logo-img {
+        width: 6px;
+        height: 17px;
+        object-fit: cover;
+        position: absolute;
+        top: 19px;
+        left: 10px;
+        filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    }
+
+    .burger-menu__logo-link {
+        text-decoration: none;
+    }
+
+    .burger-menu__logo-text {
+        padding: 3px 4px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 120%;
+        font-weight: normal;
+        color: var(--orange);
+    }
+
+    .logo:hover .logo__text {
+        cursor: pointer;
+    }
+
+    .burger-menu-nav {
+        margin-top: 30px;
+    }
+
+    .burger-menu__links-wrap {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .burger-menu__link {
+        text-decoration: none;
+        color: var(--black_blue);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .burger-menu__link:hover {
+        cursor: pointer;
+        color: var(--orange);
+        transition: all 0.3ms ease-in-out;
+    }
+
+    .watch-your-favorite-animal-online {
+        max-width: 640px;
+        height: 373px;
+        background-position: -64px 0;
+        background-size: 765px 373px;
+        position: relative;
+        top: -34px;
+    }
+
+    .watch-your-favorite-animal-online__info-wrap {
+        width: 603px;
+        margin-left: 20px;
+        align-items: flex-start;
+    }
+
+    .watch-your-favorite-animal-online__title {
+        width: 255px;
+        /*margin-left: 348px;*/
+        position: absolute;
+        top: -2px;
+        right: -204px;
+        font-size: 54px;
+        /*margin-top: 83px;*/
+    }
+
+    .decorative-elip {
+        width: 237px;
+        height: 237px;
+        right: -148px;
+        top: 44px;
+    }
+
+    .watch-your-favorite-animal-online  .button-primary__round {
+        position: absolute;
+        top: 279px;
+        left: 100px;
+    }
+
+    .the-backstage {
+        margin: 26px 0 80px;
+    }
+
+    .the-backstage__image-main {
+        display: none;
+    }
+
+    .the-backstage__wrapper {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .the-backstage__info-wrap {
+        /*width: 495px;*/
+        max-width: 485px;;
+        height: 367px;
+        gap: 30px;
+        justify-content: initial;
+    }
+
+    .the-backstage__info-wrap .section__title {
+        margin-left: 4px;
+        margin-bottom: 22px;
+    }
+
+    .the-backstage__info-wrap .section__description {
+        line-height: 130%;
+    }
+
+    .the-backstage__info-wrap .section__subtitle {
+        margin-left: 4px;
+        margin-bottom: 20px;
+    }
+
+    .the-backstage__info-wrap .section__description-mobile {
+        margin-top: -1px;
+        line-height: 140%;
+    }
+
+    .the-backstage--image-decoration {
+        display: none;
+    }
+
+    .the-backstage--image-decoration-mobile {
+        display: initial;
+        background-image: url("./../../assets/images/flower_foto1.png");
+        background-repeat: no-repeat;
+        width: 128px;
+        height: 480px;
+        background-size: auto 480px;
+        background-position: -2px 0;
+        position: absolute;
+        top: -64px;
+        left: 512px;
+    }
+
+    .pets__gallery {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        max-width: 640px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .gallery-wrap {
+        overflow-x: hidden;
+        flex-shrink: 0;
+
+    }
+
+    .carousel-wrap {
+        max-width: 640px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 120px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .carousel-item {
+        max-width: 640px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 92px;
+        column-gap: 29px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .pets .button-previous {
+        position: absolute;
+        top: 343px;
+        left: 243px;
+        z-index: 2;
+    }
+
+    .pets .button-next {
+        position: absolute;
+        top: 343px;
+        right: 243px;
+        z-index: 2;
+    }
+
+    .pet-card:nth-child(5), .pet-card:nth-child(6) {
+        display: none;
+    }
+
+    .pet-card {
+        width: 285px;
+        height: 332px;
+    }
+
+    .pet-card__overlay {
+        width: 285px;
+        height: 332px;
+    }
+
+    .pet-card__images-wrap {
+        width: 285px;
+        height: 285px;
+    }
+
+    .pet-card__images {
+        width: 285px;
+    }
+
+    .pet-card__description-wrap {
+        width: 285px;
+        padding: 3px 7px 10px 12px;
+    }
+
+    .pet-card__title {
+        font-size: 12px;
+    }
+
+    .pet-card__description {
+        font-size: 11px;
+    }
+
+    .pet-card__icon {
+        transform: scale(0.8);
+    }
+
+    .pet-card__title-wrap-overlay {
+        bottom: 60px;
+    }
+
+    .pet-card__title-wrap-overlay h4 {
+        font-size: 20px;
+    }
+
+    .pet-card__title-wrap-overlay p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+
+    .pets__image-decoration-left {
+        position: absolute;
+        width: 134px;
+        height: 202px;
+        object-fit: cover;
+        object-position: -252px 0;
+        top: 769px;
+        left: 0;
+        z-index: -2;
+    }
+
+    .pets__image-decoration-right {
+        height: 131px;
+        object-fit: cover;
+        position: absolute;
+        top: 840px;
+        right: 0;
+    }
+
+    .pets .button-primary__round {
+        display: block;
+        margin: 60px auto 100px;
+    }
+
+    .pick-and-feed-a-friend {
+        max-width: 640px;
+        height: 781px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .pick-and-feed-a-friend__card {
+        max-width: 640px;
+        height: 741px;
+        padding: 10px 20px 60px;
+    }
+
+    .pick-and-feed-a-friend .section__title {
+        margin-bottom: 20px;
+        margin-left: 98px;
+        font-size: 42px;
+    }
+
+    .pick-and-feed-a-friend .section__subtitle {
+        font-size: 22px;
+        line-height: 120%;
+    }
+
+    .pick-and-feed-a-friend__description-wrap {
+        width: 600px;
+    }
+
+    .pick-and-feed-a-friend .section__description-bold {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pick-and-feed-a-friend .section__description {
+        max-width: 600px;
+        position: relative;
+    }
+
+    .text-link {
+        text-decoration: none;
+        color: var(--black_blue);
+        padding-bottom: 0;
+        border-bottom: 1px solid #FE9013;
+    }
+
+    .feed-animal__stages {
+        margin-left: 1px;
+    }
+
+    .feed-animal__stages-title {
+        margin-top: 31px;
+    }
+
+    .feed-animal-stages__wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 42px;
+        margin-left: -12px;
+        position: relative;
+    }
+
+    .feed-animal-stages__icon-common {
+        display: none;
+    }
+
+    .card-arrow-first {
+        display: initial;
+        background-image: url("./../../assets/icons/arrow.svg");
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 136px;
+        top: -17px;
+    }
+
+    .card-arrow-second {
+        display: initial;
+        background-image: url("./../../assets/icons/arrow.svg");
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 344px;
+        top: -18px;
+    }
+
+    .pick-and-feed-a-friend .button-primary__round {
+        margin-top: 39px;
+        margin-left: 151px;
+    }
+
+    .testimonials {
+        margin-top: 60px;
+    }
+
+    .testimonials__cards {
+        display: none;
+    }
+
+    .testimonials__cards-mobile {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 600px;
+        height: 109px;
+        /*background-image: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),*/
+        /*linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);*/
+        /*border-radius: 20px;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+    }
+
+    .testimonial-card:nth-child(2) {
+        display: none;
+    }
+
+    .testimonial-card__wrap {
+        width: 596px;
+        height: 105px;
+        gap: 10px;
+    }
+
+    .testimonial-card__user-info {
+        margin-top: 13px;
+        margin-left: 10px;
+    }
+
+    .testimonials__small-paragraph {
+        margin: 1px auto 0 18px;
+        width: 553px;
+        height: 38px;
+        overflow-y: scroll;
+    }
+
+    .slide-container {
+        display: none;
+    }
+
+    .testimonials .button-primary__half-round {
+        width: 240px;
+        margin: 40px 0 80px 200px;
+    }
+
+    .testimonials__image-decoration {
+        width: 124px;
+        height: 147px;
+        object-fit: cover;
+        object-position: 8px -2px;
+        position: absolute;
+        top: 476px;
+        left: 516px;
+        z-index: -2;
+    }
+
+    .footer {
+        padding: 12px 20px;
+        max-width: 640px;
+        height: 282px;
+        position: relative;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 33px;
+    }
+
+    .form-email {
+        display: none;
+    }
+
+
+    .footer-top {
+        max-width: 298px;
+    }
+
+
+    .footer-bottom {
+        margin-top: 68px;
+        max-width: 600px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 20px;
+        top: -32px;
+        gap: 20px;
+    }
+
+    .social-media__name {
+        display: none;
+    }
+
+    .footer-nav {
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    .footer-nav__links-wrap {
+        gap: 37px;
+    }
+
+    .privacy-info__link {
+        line-height: 160%;
+    }
+
+}

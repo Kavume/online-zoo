@@ -1,0 +1,316 @@
+@media screen and (max-width: 999px) and (min-width: 640px) {
+
+    .page-content {
+        max-width: 640px;
+    }
+
+    .section {
+        max-width: 640px;
+    }
+
+    .header {
+        max-width: 640px;
+        height: 34px;
+        padding: 0 20px;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header .logo {
+        width: 47px;
+        height: 29px;
+        border: 1px solid transparent;
+        border-radius: 2px;
+    }
+
+    .header .logo__img {
+        position: absolute;
+        height: 13px;
+        object-fit: cover;
+        top: 12px;
+        left: 3px;
+    }
+
+    .header .logo__text {
+        padding:  5px 4px 4px;
+        font-size: 12px;
+        line-height: 122%;
+    }
+
+    .header .logo:hover {
+        border: 1px solid transparent;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .burger-menu__wrap {
+        display: block;
+        margin-top: -1px;
+    }
+
+    .burger-menu:hover, .burger-menu__close:hover {
+        cursor: pointer;
+    }
+
+    .burger-menu__close {
+        position: absolute;
+        top: 11px;
+        right: 22px;
+    }
+
+    .burger-menu__dropdown-content {
+        display: none;
+        width: 640px;
+        height: 329px;
+        background-color: var(--white);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0 0 10px;
+    }
+
+    .burger-menu__dropdown-content.navbar {
+        display: block;
+    }
+
+    .burger-menu__logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66px;
+        height: 42px;
+        border: 1px solid var(--orange);
+        border-radius: 2px;
+    }
+
+    .burger-menu__logo-img {
+        width: 6px;
+        height: 17px;
+        object-fit: cover;
+        position: absolute;
+        top: 19px;
+        left: 10px;
+        filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    }
+
+    .burger-menu__logo-link {
+        text-decoration: none;
+    }
+
+    .burger-menu__logo-text {
+        padding: 3px 4px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 120%;
+        font-weight: normal;
+        color: var(--orange);
+    }
+
+    .logo:hover .logo__text {
+        cursor: pointer;
+    }
+
+
+    .burger-menu-nav {
+        margin-top: 30px;
+    }
+
+    .burger-menu__links-wrap {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .burger-menu__link {
+        text-decoration: none;
+        color: var(--black_blue);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .burger-menu__link:hover {
+        cursor: pointer;
+        color: var(--orange);
+        transition: all 0.3ms ease-in-out;
+    }
+
+    .section {
+        height: 1668px;
+        max-width: 640px;
+    }
+
+    .pick-and-feed-a-friend__image {
+        height: 335px;
+        width: 100%;
+        object-position: -270px 0;
+    }
+
+    .pick-and-feed-a-friend__wrap {
+        max-width: 600px;
+        margin: 30px auto;
+    }
+
+    .pick-and-feed-a-friend__title {
+        max-width: 600px;
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+
+    .pick-and-feed-a-friend__title-colorful {
+        margin: 30px 0 28px;
+    }
+
+    .donate-card {
+        max-width: 600px;
+        height: 918px;
+        padding: 30px 0  31px 0;
+    }
+
+    .donate-card .section__title {
+        margin: 0 auto 20px;
+    }
+
+    .donate-card .section__subtitle {
+        text-align: center;
+    }
+
+    .donate-card__diet-info {
+        margin:  97px auto 38px 27px;
+    }
+
+    .donate-card__scale {
+        margin-top: 0;
+    }
+
+    .scale__description {
+        margin-left: 10px;
+    }
+
+    .amount-scale {
+        width: 600px;
+        margin-left: 0;
+        margin-top: 7px;
+    }
+
+    .amount-scale__line {
+        width: 530px;
+        height: 2px;
+    }
+
+    .amount-scale__circle:nth-child(1), .amount-scale__circle:nth-child(2), .amount-scale__circle:nth-child(3) {
+        display: none;
+    }
+
+    .scale__price:nth-child(1), .scale__price:nth-child(2), .scale__price:nth-child(3) {
+        display: none;
+    }
+
+    .scale__price-wrap {
+        margin-left: 18px;
+        max-width: 570px;
+    }
+
+    .scale__price:first-child, .scale__price:nth-child(2), .scale__price:nth-child(3) {
+        display: none;
+    }
+
+    .donate-card__pay {
+        width: 301px;
+        margin: 0 auto;
+    }
+
+    .input-amount__field-default {
+        width: 180px;
+        height: 42px;
+        padding: 16px 0 16px 6px;
+        margin-right: 0;
+        position: relative;
+    }
+
+    .input-radio__wrapper {
+        margin: 29px 0;
+        gap: 66px;
+    }
+
+    .input-number-label:after {
+        content: '';
+        background-image: url("./../../assets/icons/currency.svg");
+        background-size: 10px 20px;
+        position: absolute;
+        display: block;
+        width: 10px;
+        height: 20px;
+        right: 10px;
+        top: 10px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .footer {
+        padding: 12px 20px;
+        max-width: 640px;
+        height: 282px;
+        position: relative;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 33px;
+    }
+
+    .form-email {
+        display: none;
+    }
+
+
+    .footer-top {
+        max-width: 298px;
+    }
+
+    .button-primary__donate {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 5px;
+    }
+
+    .footer-bottom {
+        margin-top: 68px;
+        max-width: 600px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 20px;
+        top: -32px;
+        gap: 20px;
+    }
+
+    .social-media__name {
+        display: none;
+    }
+
+    .footer-nav {
+        width: 100%;
+        margin-left: 1px;
+    }
+
+    .footer-nav__links-wrap {
+        gap: 37px;
+    }
+
+    .privacy-info__link {
+        line-height: 160%;
+    }
+
+}

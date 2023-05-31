@@ -1,0 +1,41 @@
+.section__title {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--black_blue);
+}
+
+.section__subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--black_blue);
+}
+
+.section__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--black_blue);
+}
+
+.section__description-bold {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--black_blue);
+}
+
+.section__small-paragraph {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 120%;
+    color: var(--gray);
+}
+
+.section__h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--black_blue);
+}

@@ -1,0 +1,491 @@
+@media screen and (max-width: 639px) and (min-width: 320px) {
+
+    .page-content {
+        max-width: 320px;
+    }
+
+    .section {
+        max-width: 320px;
+    }
+
+    .header {
+        max-width: 320px;
+        height: 34px;
+        padding: 2px 10px 0;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .header .logo {
+        width: 47px;
+        height: 29px;
+        border: none;
+        border-radius: 2px;
+    }
+
+    .header .logo__img {
+        position: absolute;
+        height: 13px;
+        object-fit: cover;
+        top: 12px;
+        left: 4px;
+    }
+
+    .header .logo__text {
+        padding: 0;
+        font-size: 12px;
+        line-height: 122%;
+        margin: 0;
+    }
+
+    .header .logo:hover {
+        border: none;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .burger-menu__wrap {
+        display: block;
+        margin-top: -1px;
+    }
+
+    .burger-menu:hover, .burger-menu__close:hover {
+        cursor: pointer;
+    }
+
+    .burger-menu__close {
+        position: absolute;
+        top: 10px;
+        right: 12px;
+    }
+
+    .burger-menu__dropdown-content {
+        display: none;
+        width: 320px;
+        height: 329px;
+        background-color: var(--white);
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0 0 10px;
+    }
+
+    .burger-menu__dropdown-content.navbar {
+        display: block;
+    }
+
+    .burger-menu__logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 66px;
+        height: 42px;
+        border: 1px solid var(--orange);
+        border-radius: 2px;
+    }
+
+    .burger-menu__logo-img {
+        width: 6px;
+        height: 17px;
+        object-fit: cover;
+        position: absolute;
+        top: 19px;
+        left: 10px;
+        filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    }
+
+    .burger-menu__logo-link {
+        text-decoration: none;
+    }
+
+    .burger-menu__logo-text {
+        padding: 3px 4px;
+        font-size: 15px;
+        text-align: center;
+        line-height: 120%;
+        font-weight: normal;
+        color: var(--orange);
+    }
+
+    .logo:hover .logo__text {
+        cursor: pointer;
+    }
+
+    .burger-menu-nav {
+        margin-top: 30px;
+    }
+
+    .burger-menu__links-wrap {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 15px;
+    }
+
+    .burger-menu__link {
+        text-decoration: none;
+        color: var(--black_blue);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .burger-menu__link:hover {
+        cursor: pointer;
+        color: var(--orange);
+        transition: all 0.3ms ease-in-out;
+    }
+
+    .section {
+        height: 1332px;
+        max-width: 320px;
+    }
+
+    .pick-and-feed-a-friend__image {
+        height: 187px;
+        max-width: 100%;
+        object-position: -148px 0;
+    }
+
+    .pick-and-feed-a-friend__wrap {
+        max-width: 320px;
+        margin: 30px auto 0 0;
+        padding-left: 10px;
+    }
+
+    .pick-and-feed-a-friend__title {
+        width: 300px;
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 120%;
+    }
+
+    .pick-and-feed-a-friend__description {
+        width: 300px;
+    }
+
+    .pick-and-feed-a-friend__description, .pick-and-feed-a-friend__description span {
+        color: var(--white);
+        line-height: 138%;
+    }
+
+    .pick-and-feed-a-friend__title-colorful {
+        font-size: 24px;
+        line-height: 130%;
+        margin: 30px 0 27px;
+    }
+
+    .donate-card {
+        max-width: 300px;
+        height: 591px;
+        padding: 20px 0 0;
+        margin: 0;
+    }
+
+    .donate-card .section__title {
+        font-size: 24px;
+        line-height: 120%;
+        margin: 1px auto 10px;
+    }
+
+    .donate-card .section__subtitle {
+        text-align: center;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .donate-card__diet-info {
+        margin: 35px 0 2px;
+    }
+
+    .diet-description {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .input-hidden-arrows__wrapper {
+        margin-left: 2px;
+    }
+
+    .input-hidden-arrows::-webkit-outer-spin-button {
+        background-color: transparent;
+        border: none;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 80%;
+        color: var(--black);
+        width: 24px;
+    }
+
+    .input-hidden-arrows[type=number] {
+        -moz-appearance: textfield;
+        background-color: transparent;
+        border: none;
+        font-size: 40px;
+        height: 33px;
+        font-weight: 500;
+        line-height: 80%;
+        color: var(--black);
+        width: 24px;
+    }
+
+    .diet-description__text {
+        font-size: 9px;
+        line-height: 140%;
+        width: 90px;
+    }
+
+    .donate-card__icon-common-wrap {
+        width: 8px;
+        margin: -12px 36px 0 6px;
+    }
+
+    .donate-card__icon-common {
+        width: 8px;
+        object-fit: cover;
+    }
+
+    .donate-card__icon {
+        width: 151px;
+        object-fit: cover;
+    }
+
+    .donate-card__scale {
+        margin-top: 0;
+    }
+
+    .scale__description {
+        margin-left: 0;
+    }
+
+    .amount-scale {
+        width: 300px;
+        height: 13px;
+        margin-left: 0;
+        margin-top: 7px;
+        gap: 60px;
+    }
+
+    .amount-scale__line {
+        width: 265px;
+        border-radius: 5px;
+        height: 2px;
+    }
+
+    .amount-scale__circle:nth-child(1), .amount-scale__circle:nth-child(2), .amount-scale__circle:nth-child(3) {
+        display: none;
+    }
+
+    .scale__price:nth-child(1), .scale__price:nth-child(2), .scale__price:nth-child(3) {
+        display: none;
+    }
+
+    .amount-scale__circle {
+        position: relative;
+        z-index: 1;
+        width: 5px;
+        height: 5px;
+        border-radius: 360px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: var(--yellow);
+        border: none;
+    }
+
+    .amount-scale__circle:checked:after {
+        content: url("./../../assets/icons/roller_icon.svg");
+        transform: scale(0.5);
+        object-fit: cover;
+        position: absolute;
+        top: -18px;
+        left: -17px;
+    }
+
+    .scale__price-wrap {
+        margin-left: 8px;
+        width: 298px;
+        margin-top: 6px;
+        margin-bottom: 25px;
+    }
+
+    .scale__price {
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+        align-items: baseline;
+        width: 36px;
+    }
+
+    .scale__price-icon-wrap {
+        width: 5px;
+        height: 10px;
+    }
+
+    .scale__price-icon {
+        width: 5px;
+        object-fit: cover;
+    }
+
+    .scale__price-amount {
+        font-size: 13px;
+    }
+
+    .donate-card__pay {
+        width: 298px;
+        margin: 0;
+    }
+
+    .input-amount__field-default {
+        width: 180px;
+        height: 42px;
+        padding: 16px 0 16px 6px;
+        margin-right: 0;
+        position: relative;
+    }
+
+    .input-radio__wrapper {
+        margin: 24px 0;
+        gap: 66px;
+    }
+
+    .input-number-label:after {
+        content: '';
+        background-image: url("./../../assets/icons/currency.svg");
+        background-size: 10px 20px;
+        position: absolute;
+        display: block;
+        width: 10px;
+        height: 20px;
+        right: 10px;
+        top: 10px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .button-primary__round {
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+    .donate-card__pay .pick-and-feed-a-friend__description {
+        width: 301px;
+    }
+
+    .footer {
+        padding: 21px 0 0;
+        width: 320px;
+        height: 334px;
+        position: relative;
+    }
+
+    .footer-top {
+        width: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 33px;
+    }
+
+    .footer .logo {
+        position: relative;
+        display: block;
+        width: 128px;
+        height: 25px;
+        border: none;
+        margin: auto;
+    }
+
+    .footer .logo__link {
+        text-decoration: none;
+    }
+
+    .footer .logo__text {
+        padding: 0;
+        font-size: 19px;
+        line-height: 120%;
+        font-weight: normal;
+        color: var(--white);
+        position: relative;
+        margin: 0;
+    }
+
+    .footer .logo__img {
+        position: absolute;
+        top: -4px;
+        left: 72px;
+    }
+
+    .footer .logo:hover .logo__text {
+        cursor: pointer;
+        color: var(--orange);
+    }
+
+    .footer .logo:hover .logo__img {
+        filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    }
+
+    .form-email {
+        display: none;
+    }
+
+    .footer .button-primary__donate {
+        margin: 50px 0 0 9px;
+    }
+
+    .footer-bottom {
+        margin-top: 20px;
+        width: 320px;
+    }
+
+    .social-media {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        left: 63px;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .social-media__name {
+        display: none;
+    }
+
+    .footer-nav {
+        width: 320px;
+        margin-left: 21px;
+        margin-top: 89px;
+    }
+
+    .footer-nav__links-wrap {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 30px;
+    }
+
+    .privacy-wrap {
+        min-width: 214px;
+        position: absolute;
+        top: 209px;
+        left: 96px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .privacy-info {
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 190%;
+        color: var(--white);
+    }
+
+}

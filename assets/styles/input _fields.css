@@ -1,0 +1,185 @@
+.input-email__field-default {
+    width: 228px;
+    height: 42px;
+    border-radius: 2px;
+    border: 1px solid var(--orange);
+    background: none;
+    color: var(--frosted_glass_white);
+    padding: 10px 0 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-right: 10px;
+}
+
+.input-email__field-default:active {
+    border: 1px solid var(--green);
+}
+
+.input-email__field-error {
+    width: 228px;
+    height: 42px;
+    border-radius: 2px;
+    border: 1px solid var(--red);
+    background: none;
+}
+
+.input-email__field-default::placeholder {
+    color: #BDBDBD;
+}
+
+.input-email__field-error::placeholder {
+    color: var(--red);
+}
+
+
+
+.input-hidden-arrows::-webkit-outer-spin-button{
+    background-color: transparent;
+    border: none;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 80%;
+    color: var(--black);
+    width: 82px;
+}
+
+.input-hidden-arrows[type=number] {
+    -moz-appearance: textfield;
+    background-color: transparent;
+    border: none;
+    font-size: 72px;
+    height: 58px;
+    font-weight: 500;
+    line-height: 80%;
+    color: var(--black);
+    width: 82px;
+
+}
+
+
+
+
+.input-amount__field-default {
+    width: 268px;
+    height: 54px;
+    border-radius: 2px;
+    border: 1px solid #929699;
+    background: none;
+    padding: 16px 0 16px 9px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-right: 10px;
+    position: relative;
+}
+
+.input-amount__field-default::placeholder {
+    color: #929699;
+}
+
+.input-number-wrap {
+    position: relative;
+}
+
+.input-amount__field-default::-webkit-outer-spin-button,
+.input-amount__field-default::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-amount__field-default[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input-number-label:after {
+    content: '';
+    background-image: url("./../../assets/icons/currency.svg");
+    background-size: 10px 20px;
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 20px;
+    right: 20px;
+    top: 17px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.input-amount__field-default:valid {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.input-amount__field-default:invalid {
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+
+
+.input-radio__wrapper {
+    margin: 26px 0 27px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.input-radio__wrap {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    margin-top: -4px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input-radio__wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 5px;
+    left: -16px;
+    height: 16px;
+    width: 16px;
+    border: 1px solid var(--orange);
+    border-radius: 50%;
+}
+
+.input-radio__wrap:hover input ~ .checkmark {
+    background-color: var(--orange);
+}
+
+.input-radio__wrap input:checked ~ .checkmark {
+    background-color: var(--green);
+    border: 1px solid transparent;
+}
+
+
+
+.input-radio__label-default {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--black_blue);
+}
+
+.input-radio__label-default:after {
+    content: "";
+    height: 25px;
+    width: 40px;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    z-index: 10;
+}

@@ -1,0 +1,141 @@
+.footer {
+    padding: 40px 220px 0;
+    max-width: 1600px;
+    height: 443px;
+    background-color: #111115;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.form-label {
+    color: var(--white);
+    display: block;
+    margin-bottom: 14px;
+}
+
+.link-donate {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.social-media {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-media__link {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-media__icon {
+    fill: #C4C4C4;
+}
+
+.social-media__link:hover > .social-media__name {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.social-media__link:hover > .social-media__icon {
+    fill: var(--orange);
+}
+
+.social-media__link:active > .social-media__name {
+    cursor: pointer;
+    color: var(--green);
+}
+
+.social-media__link:active > .social-media__icon {
+    fill: var(--green);
+}
+
+.social-media__icon {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+.social-media__name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--white);
+}
+
+.footer-nav {
+    width: 100%;
+    margin-left: 289px;
+}
+
+.footer-nav__links-wrap {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 58px;
+}
+
+.footer-nav__link {
+    text-decoration: none;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.footer-nav__link:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+
+.privacy-wrap {
+    min-width: 228px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.privacy-info__link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.privacy-info__link:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.privacy-info__link:active {
+    color: var(--green);
+    text-decoration: underline var(--green);
+}
+
+.privacy-info {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 130%;
+    color: var(--white);
+}
+
+.link__default {
+    color: var(--orange);
+    pointer-events: none;
+}

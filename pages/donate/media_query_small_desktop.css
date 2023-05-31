@@ -1,0 +1,128 @@
+@media screen and (max-width: 1220px) and (min-width: 1000px) {
+
+    .page-content {
+        max-width: 1000px;
+    }
+
+    .header {
+        max-width: 1000px;
+        padding: 0 30px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .header-nav__links-wrap {
+        gap: 48px;
+    }
+
+    .section {
+        height: 1723px;
+        max-width: 1000px;
+    }
+
+    .pick-and-feed-a-friend__image {
+        height: 390px;
+        width: 100%;
+        object-position: -170px 0;
+    }
+
+    .pick-and-feed-a-friend__wrap {
+        max-width: 940px;
+        margin-left: 30px;
+    }
+
+    .pick-and-feed-a-friend__title {
+        width: 778px;
+        margin-bottom: 30px;
+        line-height: 130%;
+    }
+
+    .pick-and-feed-a-friend__title-colorful {
+        margin: 46px 0 40px;
+    }
+
+    .donate-card {
+        max-width: 940px;
+        height: 918px;
+        padding: 20px 0 0 46px;
+    }
+
+    .donate-card .section__title {
+        margin-bottom: 10px;
+        margin-left: 184px;
+    }
+
+    .donate-card__diet-info {
+        margin-left: 149px;
+    }
+
+    .donate-card__scale {
+        margin-top: 44px;
+    }
+
+    .scale__description {
+        margin-left: 18px;
+    }
+
+    .amount-scale {
+        width: 810px;
+        margin-left: 18px;
+    }
+
+    .amount-scale__line {
+        width: 790px;
+    }
+
+    .scale__price-wrap {
+        margin-left: 18px;
+        max-width: 830px;
+    }
+
+    .amount-scale__circle:nth-child(1), .scale__price:nth-child(1){
+        display: none;
+    }
+
+    .donate-card__pay {
+        width: 301px;
+        margin-left: 276px;
+    }
+
+    .input-radio__wrapper {
+        margin: 24px 0 30px 0;
+        gap: 66px;
+    }
+
+    .footer {
+        padding: 40px 31px 50px 30px;
+        max-width: 1000px;
+        height: 443px;
+    }
+
+    .footer-top {
+        max-width: 906px;
+    }
+
+    .input-email__field-default {
+        margin-right: 4px;
+    }
+
+    .footer-bottom {
+        max-width: 938px;
+    }
+
+    .footer-nav {
+        width: 100%;
+        margin-left: 193px;
+    }
+
+    .footer-nav__links-wrap {
+        gap: 48px;
+    }
+
+    .privacy-info__link {
+        text-decoration: none;
+        color: var(--white);
+        line-height: 160%;
+    }
+
+}

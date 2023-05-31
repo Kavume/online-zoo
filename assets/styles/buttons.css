@@ -1,0 +1,95 @@
+.button-primary {
+    width: 298px;
+    height: 54px;
+    background: var(--orange-gradient);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    border: none;
+}
+
+.button-primary__round {
+    border-radius: 25px;
+}
+
+.button-primary__half-round {
+    border-radius: 5px;
+}
+
+.button-primary__donate {
+    background: none;
+}
+
+.button-primary:hover, .button-primary__half-round:hover {
+    background: var(--orange-button-hover);
+}
+
+.button-primary:active, .button-primary__half-round:active {
+    background: var(--green);
+}
+
+.button-primary:disabled, .button-primary__half-round:disabled {
+    background: var(--gray);
+}
+
+.button-secondary {
+    width: 129px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--black);
+    background: var(--light_gray);
+    border: 1px solid var(--black_blue);
+    text-transform: capitalize;
+}
+
+.button-secondary:hover {
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.button-secondary__mistake {
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+
+.button-next, .button-previous {
+    width: 62px;
+    height: 62px;
+    background: var(--orange-gradient);
+    border-radius: 360px;
+    border: none;
+}
+
+.button-next:hover, .button-previous:hover {
+    background: var(--orange-button-hover);
+}
+
+.button-next:active, .button-previous:active{
+    background: var(--green);
+}
+
+.submit-button:default {
+    width: 129px;
+    height: 42px;
+    border: 1px solid var(--red);
+    border-radius: 5px;
+    background-color: var(--light_gray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #D31414;
+}
+
+.submit-button:active{
+    border: 1px solid var(--green);
+    color: var(--green);
+}
+
+.submit-button {
+    border: 1px solid var(--black_blue);
+    color: var(--black);
+}

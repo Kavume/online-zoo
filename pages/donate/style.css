@@ -1,0 +1,231 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section {
+    height: 1868px;
+    max-width: 1600px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+    linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.pick-and-feed-a-friend__image {
+    height: 386px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pick-and-feed-a-friend__wrap {
+    max-width: 1160px;
+    margin: 40px auto;
+    /*margin-top: 40px;*/
+    /*margin-left: 220px;*/
+}
+
+.pick-and-feed-a-friend__title {
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    line-height: 140%;
+}
+
+.pick-and-feed-a-friend__description, .pick-and-feed-a-friend__description span {
+    color: var(--white);
+    line-height: 140%;
+}
+
+.pick-and-feed-a-friend__description:last-child {
+    color: var(--black_blue);
+    margin-top: 30px;
+}
+
+.pick-and-feed-a-friend__title-colorful {
+    color: #FE9013;
+    margin: 45px 0 60px 0;
+}
+
+.donate-card {
+    max-width: 1160px;
+    height: 964px;
+    background-color: rgba(253, 253, 255, 0.52);
+    border-radius: 20px;
+    filter: blur(4%);
+    display: flex;
+    flex-direction: column;
+    padding: 39px 0 0 92px;
+}
+
+.donate-card .section__title {
+    color: #FE9013;
+    margin-bottom: 22px;
+    margin-left: 250px;
+}
+
+.donate-card__diet-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 107px;
+    margin-left: 215px;
+}
+
+.diet-description {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+}
+
+.input-hidden-arrows__wrapper {
+    margin-left: 40px;
+}
+
+
+.donate-card__icon-common-wrap {
+    width: 14px;
+    object-fit: cover;
+    margin: -14px 64px 0 11px;
+}
+
+.donate-card__icon-wrap {
+    width: 246px;
+    object-fit: cover;
+}
+
+.donate-card__scale {
+    margin-top: 46px;
+}
+
+.scale__description {
+    line-height: 140%;
+}
+
+.amount-scale {
+    max-width: 976px;
+    height: 27px;
+    background-color: #404950;
+    border-radius: 2px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    position: relative;
+}
+
+.amount-scale__line {
+    position: absolute;
+    width: 920px;
+    height: 3px;
+    background: #72828E;
+}
+
+.amount-scale__circle {
+    position: relative;
+    z-index: 1;
+    width: 10px;
+    height: 10px;
+    border-radius: 360px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: var(--yellow);
+    border: none;
+}
+
+.amount-scale__circle:after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+.amount-scale__circle:hover {
+    cursor: pointer;
+}
+
+.amount-scale__circle:checked:after {
+    content: url("./../../assets/icons/roller_icon.svg");
+    width: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+.scale__price.active .scale__price-amount {
+    color: var(--orange);
+}
+
+.scale__price.active .scale__price-icon {
+    filter: invert(100%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(85%);
+}
+
+.scale__price-wrap {
+    margin: 12px 0 50px;
+    max-width: 976px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.scale__price {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: baseline;
+    width: 57px;
+}
+
+.scale__price:hover .scale__price-amount {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.scale__price:hover .scale__price-icon {
+    cursor: pointer;
+    filter: invert(100%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(85%);
+}
+
+
+.scale__price-icon-wrap {
+    width: 10px;
+    object-fit: cover;
+}
+
+.scale__price-amount {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 140%;
+    color: var(--black_blue);
+}
+
+/*input::-webkit-outer-spin-button,*/
+/*input::-webkit-inner-spin-button {*/
+/*    -webkit-appearance: none;*/
+/*}*/
+
+.donate-card__pay {
+    max-width: 976px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
